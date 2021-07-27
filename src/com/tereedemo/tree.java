@@ -42,6 +42,8 @@ public class tree {
 
             }
         }
+
+        //中序排列
         public void printnode(){
             if (this.left!=null){
                 this.left.printnode();
